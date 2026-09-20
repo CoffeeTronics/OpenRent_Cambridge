@@ -1,0 +1,3496 @@
+{
+ "validFrom": "2026-09-20",
+ "serviceDate": "2026-09-21",
+ "source": "api.transitous.org (MOTIS, published GB GTFS)",
+ "destination": {
+  "name": "Cambridge Research Park",
+  "lat": 52.2928224,
+  "lon": 0.1702614
+ },
+ "waterbeachStation": {
+  "lat": 52.2618613,
+  "lon": 0.1969942
+ },
+ "lastMile": {
+  "cycleMin": 7,
+  "shuttleMin": 10
+ },
+ "stops": [
+  {
+   "id": "CMB_SOUTH__Addenbrooke's_Hospital_Bus_Station",
+   "name": "Addenbrooke's Hospital Bus Station",
+   "areaName": "Cambridge South",
+   "mode": "bus",
+   "lat": 52.1758,
+   "lon": 0.1449,
+   "searchArea": {
+    "term": "Trumpington, Cambridge",
+    "slug": "trumpington-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "09:13",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "13A",
+       "from": "Addenbrooke's Hospital Bus Station",
+       "to": "Downing College",
+       "dep": "09:13",
+       "arr": "09:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "09:26",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:43",
+     "arrWaterbeach": "10:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "13",
+       "from": "Addenbrooke's Hospital Bus Station",
+       "to": "Downing College",
+       "dep": "09:43",
+       "arr": "09:54"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "09:56",
+       "arr": "10:17"
+      }
+     ]
+    },
+    {
+     "dep": "10:13",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "13A",
+       "from": "Addenbrooke's Hospital Bus Station",
+       "to": "Downing College",
+       "dep": "10:13",
+       "arr": "10:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "10:26",
+       "arr": "10:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "HISTON__Barrowcrofts",
+   "name": "Barrowcrofts",
+   "areaName": "Histon & Impington",
+   "mode": "bus",
+   "lat": 52.2581,
+   "lon": 0.1037,
+   "searchArea": {
+    "term": "Histon, Cambridge",
+    "slug": "histon-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:58",
+     "arrWaterbeach": "06:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Village College",
+       "dep": "05:58",
+       "arr": "06:03"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "06:24",
+       "arr": "06:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "06:40",
+       "arr": "06:47"
+      }
+     ]
+    },
+    {
+     "dep": "06:22",
+     "arrWaterbeach": "07:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Emmanuel Street",
+       "dep": "06:22",
+       "arr": "06:51"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "06:55",
+       "arr": "07:17"
+      }
+     ]
+    },
+    {
+     "dep": "07:09",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Village College",
+       "dep": "07:09",
+       "arr": "07:14"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "07:24",
+       "arr": "07:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "07:40",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:39",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Emmanuel Street",
+       "dep": "07:39",
+       "arr": "08:14"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "08:25",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:19",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Emmanuel Street",
+       "dep": "08:19",
+       "arr": "08:54"
+      },
+      {
+       "mode": "bus",
+       "route": "PR4",
+       "from": "Drummer Street",
+       "to": "Railway Station",
+       "dep": "09:00",
+       "arr": "09:08"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "08:59",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Village College",
+       "dep": "08:59",
+       "arr": "09:04"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "09:24",
+       "arr": "09:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "09:40",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:39",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Emmanuel Street",
+       "dep": "09:39",
+       "arr": "10:14"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "10:25",
+       "arr": "10:47"
+      }
+     ]
+    },
+    {
+     "dep": "10:19",
+     "arrWaterbeach": "11:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Jesus College",
+       "dep": "10:19",
+       "arr": "10:52"
+      },
+      {
+       "mode": "bus",
+       "route": "3",
+       "from": "Fair Street",
+       "to": "Ditton Walk",
+       "dep": "10:55",
+       "arr": "11:03"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Ditton Walk",
+       "to": "Lode Avenue",
+       "dep": "11:05",
+       "arr": "11:17"
+      }
+     ]
+    },
+    {
+     "dep": "10:59",
+     "arrWaterbeach": "11:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Barrowcrofts",
+       "to": "Village College",
+       "dep": "10:59",
+       "arr": "11:04"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "11:24",
+       "arr": "11:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "11:40",
+       "arr": "11:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "LITTLEPORT__Crown_Lane",
+   "name": "Crown Lane",
+   "areaName": "Littleport",
+   "mode": "bus",
+   "lat": 52.457,
+   "lon": 0.3043,
+   "searchArea": {
+    "term": "Littleport, Cambridgeshire",
+    "slug": "littleport-cambridgeshire"
+   },
+   "journeys": [
+    {
+     "dep": "05:58",
+     "arrWaterbeach": "07:14",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Crown Lane",
+       "to": "Research Park Entrance",
+       "dep": "05:58",
+       "arr": "06:58"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Research Park Entrance",
+       "to": "Lode Avenue",
+       "dep": "07:05",
+       "arr": "07:14"
+      }
+     ]
+    },
+    {
+     "dep": "08:49",
+     "arrWaterbeach": "10:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Crown Lane",
+       "to": "Caravan Park",
+       "dep": "08:49",
+       "arr": "09:47"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Ely Road",
+       "to": "Gibson Close",
+       "dep": "10:05",
+       "arr": "10:10"
+      }
+     ]
+    },
+    {
+     "dep": "10:49",
+     "arrWaterbeach": "12:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Crown Lane",
+       "to": "Caravan Park",
+       "dep": "10:49",
+       "arr": "11:47"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Ely Road",
+       "to": "Gibson Close",
+       "dep": "12:05",
+       "arr": "12:10"
+      }
+     ]
+    },
+    {
+     "dep": "11:49",
+     "arrWaterbeach": "13:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Crown Lane",
+       "to": "Market Street (Stop B)",
+       "dep": "11:49",
+       "arr": "12:09"
+      },
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Market Street (Stop B)",
+       "to": "Caravan Park",
+       "dep": "12:17",
+       "arr": "12:47"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Ely Road",
+       "to": "Gibson Close",
+       "dep": "13:05",
+       "arr": "13:10"
+      }
+     ]
+    },
+    {
+     "dep": "12:49",
+     "arrWaterbeach": "14:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Crown Lane",
+       "to": "Caravan Park",
+       "dep": "12:49",
+       "arr": "13:47"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Ely Road",
+       "to": "Gibson Close",
+       "dep": "14:05",
+       "arr": "14:10"
+      }
+     ]
+    },
+    {
+     "dep": "15:13",
+     "arrWaterbeach": "16:44",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Crown Lane",
+       "to": "Research Park Entrance",
+       "dep": "15:13",
+       "arr": "16:07"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Research Park Entrance",
+       "to": "Lode Avenue",
+       "dep": "16:35",
+       "arr": "16:44"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ARBURY__Ferrars_Way",
+   "name": "Ferrars Way",
+   "areaName": "Arbury",
+   "mode": "bus",
+   "lat": 52.2249,
+   "lon": 0.1213,
+   "searchArea": {
+    "term": "Arbury, Cambridge",
+    "slug": "arbury-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:38",
+     "arrWaterbeach": "06:22",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Railway Station",
+       "dep": "05:38",
+       "arr": "06:03"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:13",
+       "arr": "06:22"
+      }
+     ]
+    },
+    {
+     "dep": "06:40",
+     "arrWaterbeach": "07:24",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Railway Station",
+       "dep": "06:40",
+       "arr": "07:10"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:15",
+       "arr": "07:24"
+      }
+     ]
+    },
+    {
+     "dep": "07:04",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Emmanuel Street",
+       "dep": "07:04",
+       "arr": "07:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "07:25",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:40",
+     "arrWaterbeach": "08:24",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Railway Station",
+       "dep": "07:40",
+       "arr": "08:09"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:15",
+       "arr": "08:24"
+      }
+     ]
+    },
+    {
+     "dep": "08:04",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Emmanuel Street",
+       "dep": "08:04",
+       "arr": "08:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "08:25",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:40",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Railway Station",
+       "dep": "08:40",
+       "arr": "09:10"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "09:04",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Emmanuel Street",
+       "dep": "09:04",
+       "arr": "09:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "09:25",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:40",
+     "arrWaterbeach": "10:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Jesus College",
+       "dep": "09:40",
+       "arr": "09:51"
+      },
+      {
+       "mode": "bus",
+       "route": "3",
+       "from": "Fair Street",
+       "to": "Ditton Walk",
+       "dep": "09:54",
+       "arr": "10:01"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Ditton Walk",
+       "to": "Lode Avenue",
+       "dep": "10:05",
+       "arr": "10:17"
+      }
+     ]
+    },
+    {
+     "dep": "10:04",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Ferrars Way",
+       "to": "Emmanuel Street",
+       "dep": "10:04",
+       "arr": "10:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "10:25",
+       "arr": "10:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KINGS_HEDGES__Kirkwood_Road",
+   "name": "Kirkwood Road",
+   "areaName": "Kings Hedges",
+   "mode": "bus",
+   "lat": 52.2331,
+   "lon": 0.1369,
+   "searchArea": {
+    "term": "Kings Hedges, Cambridge",
+    "slug": "kings-hedges-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:54",
+     "arrWaterbeach": "06:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Emmanuel Street",
+       "dep": "05:54",
+       "arr": "06:17"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "06:25",
+       "arr": "06:47"
+      }
+     ]
+    },
+    {
+     "dep": "06:55",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Emmanuel Street",
+       "dep": "06:55",
+       "arr": "07:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "07:25",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:55",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Emmanuel Street",
+       "dep": "07:55",
+       "arr": "08:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "08:25",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:19",
+     "arrWaterbeach": "09:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Emmanuel Street",
+       "dep": "08:19",
+       "arr": "08:43"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "08:55",
+       "arr": "09:17"
+      }
+     ]
+    },
+    {
+     "dep": "08:31",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Railway Station",
+       "dep": "08:31",
+       "arr": "09:10"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "08:55",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Emmanuel Street",
+       "dep": "08:55",
+       "arr": "09:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "09:25",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:31",
+     "arrWaterbeach": "10:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Jesus College",
+       "dep": "09:31",
+       "arr": "09:51"
+      },
+      {
+       "mode": "bus",
+       "route": "3",
+       "from": "Fair Street",
+       "to": "Ditton Walk",
+       "dep": "09:54",
+       "arr": "10:01"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Ditton Walk",
+       "to": "Lode Avenue",
+       "dep": "10:05",
+       "arr": "10:17"
+      }
+     ]
+    },
+    {
+     "dep": "09:55",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Emmanuel Street",
+       "dep": "09:55",
+       "arr": "10:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "10:25",
+       "arr": "10:47"
+      }
+     ]
+    },
+    {
+     "dep": "10:31",
+     "arrWaterbeach": "11:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Kirkwood Road",
+       "to": "Jesus College",
+       "dep": "10:31",
+       "arr": "10:51"
+      },
+      {
+       "mode": "bus",
+       "route": "3",
+       "from": "Fair Street",
+       "to": "Ditton Walk",
+       "dep": "10:55",
+       "arr": "11:03"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Ditton Walk",
+       "to": "Lode Avenue",
+       "dep": "11:05",
+       "arr": "11:17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CMB_SOUTH__Long_Rd_6th_Form_Coll",
+   "name": "Long Rd 6th Form Coll",
+   "areaName": "Cambridge South",
+   "mode": "bus",
+   "lat": 52.178,
+   "lon": 0.1352,
+   "searchArea": {
+    "term": "Trumpington, Cambridge",
+    "slug": "trumpington-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "07:35",
+     "arrWaterbeach": "08:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "X2",
+       "from": "Long Rd 6th Form Coll",
+       "to": "Downing College",
+       "dep": "07:35",
+       "arr": "07:50"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "07:56",
+       "arr": "08:17"
+      }
+     ]
+    },
+    {
+     "dep": "09:35",
+     "arrWaterbeach": "09:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "X2",
+       "from": "Long Rd 6th Form Coll",
+       "to": "Railway Station",
+       "dep": "09:35",
+       "arr": "09:43"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:45",
+       "arr": "09:54"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CMB_SOUTH__Long_Road",
+   "name": "Long Road",
+   "areaName": "Cambridge South",
+   "mode": "bus",
+   "lat": 52.1792,
+   "lon": 0.1422,
+   "searchArea": {
+    "term": "Trumpington, Cambridge",
+    "slug": "trumpington-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "08:09",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Long Road",
+       "to": "Downing College",
+       "dep": "08:09",
+       "arr": "08:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "08:26",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:42",
+     "arrWaterbeach": "09:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "13",
+       "from": "Long Road",
+       "to": "Downing College",
+       "dep": "08:42",
+       "arr": "08:52"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "08:56",
+       "arr": "09:17"
+      }
+     ]
+    },
+    {
+     "dep": "09:05",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Long Road",
+       "to": "Railway Station",
+       "dep": "09:05",
+       "arr": "09:13"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "10:05",
+     "arrWaterbeach": "10:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Long Road",
+       "to": "Railway Station",
+       "dep": "10:05",
+       "arr": "10:13"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "10:17",
+       "arr": "10:26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CHERRY_HINTON__Mill_End_Close",
+   "name": "Mill End Close",
+   "areaName": "Cherry Hinton",
+   "mode": "bus",
+   "lat": 52.1861,
+   "lon": 0.1731,
+   "searchArea": {
+    "term": "Cherry Hinton, Cambridge",
+    "slug": "cherry-hinton-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:56",
+     "arrWaterbeach": "06:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Downing College",
+       "dep": "05:56",
+       "arr": "06:21"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "06:26",
+       "arr": "06:47"
+      }
+     ]
+    },
+    {
+     "dep": "06:20",
+     "arrWaterbeach": "06:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "06:20",
+       "arr": "06:39"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:45",
+       "arr": "06:54"
+      }
+     ]
+    },
+    {
+     "dep": "06:45",
+     "arrWaterbeach": "07:24",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "06:45",
+       "arr": "07:05"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:15",
+       "arr": "07:24"
+      }
+     ]
+    },
+    {
+     "dep": "06:57",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Downing College",
+       "dep": "06:57",
+       "arr": "07:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "07:26",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:21",
+     "arrWaterbeach": "07:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "07:21",
+       "arr": "07:41"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:45",
+       "arr": "07:54"
+      }
+     ]
+    },
+    {
+     "dep": "07:45",
+     "arrWaterbeach": "08:24",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "07:45",
+       "arr": "08:05"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:15",
+       "arr": "08:24"
+      }
+     ]
+    },
+    {
+     "dep": "07:57",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Downing College",
+       "dep": "07:57",
+       "arr": "08:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "08:26",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:19",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "08:19",
+       "arr": "08:39"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:45",
+       "arr": "08:54"
+      }
+     ]
+    },
+    {
+     "dep": "08:54",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "08:54",
+       "arr": "09:13"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "09:18",
+     "arrWaterbeach": "09:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "09:18",
+       "arr": "09:37"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:45",
+       "arr": "09:54"
+      }
+     ]
+    },
+    {
+     "dep": "09:30",
+     "arrWaterbeach": "10:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Hills Rd 6th Form Col",
+       "dep": "09:30",
+       "arr": "09:46"
+      },
+      {
+       "mode": "bus",
+       "route": "13",
+       "from": "Hills Rd 6th Form Col",
+       "to": "Downing College",
+       "dep": "09:48",
+       "arr": "09:54"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "09:56",
+       "arr": "10:17"
+      }
+     ]
+    },
+    {
+     "dep": "09:54",
+     "arrWaterbeach": "10:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "09:54",
+       "arr": "10:13"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "10:17",
+       "arr": "10:26"
+      }
+     ]
+    },
+    {
+     "dep": "10:18",
+     "arrWaterbeach": "10:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Railway Station",
+       "dep": "10:18",
+       "arr": "10:37"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "10:45",
+       "arr": "10:54"
+      }
+     ]
+    },
+    {
+     "dep": "10:30",
+     "arrWaterbeach": "11:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "1",
+       "from": "Mill End Close",
+       "to": "Hills Rd 6th Form Col",
+       "dep": "10:30",
+       "arr": "10:46"
+      },
+      {
+       "mode": "bus",
+       "route": "13",
+       "from": "Hills Rd 6th Form Col",
+       "to": "Downing College",
+       "dep": "10:48",
+       "arr": "10:54"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "10:56",
+       "arr": "11:17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CMB_SOUTH__Puddicombe_Way",
+   "name": "Puddicombe Way",
+   "areaName": "Cambridge South",
+   "mode": "bus",
+   "lat": 52.1775,
+   "lon": 0.1359,
+   "searchArea": {
+    "term": "Trumpington, Cambridge",
+    "slug": "trumpington-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "06:00",
+     "arrWaterbeach": "06:22",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "U2",
+       "from": "Puddicombe Way",
+       "to": "Railway Station",
+       "dep": "06:00",
+       "arr": "06:09"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:13",
+       "arr": "06:22"
+      }
+     ]
+    },
+    {
+     "dep": "06:58",
+     "arrWaterbeach": "07:24",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "U1",
+       "from": "Puddicombe Way",
+       "to": "Railway Station",
+       "dep": "06:58",
+       "arr": "07:07"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:15",
+       "arr": "07:24"
+      }
+     ]
+    },
+    {
+     "dep": "09:39",
+     "arrWaterbeach": "10:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "U1",
+       "from": "Puddicombe Way",
+       "to": "Botanic Gardens",
+       "dep": "09:39",
+       "arr": "09:49"
+      },
+      {
+       "mode": "bus",
+       "route": "13",
+       "from": "Botanic Gardens",
+       "to": "Downing College",
+       "dep": "09:51",
+       "arr": "09:54"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "09:56",
+       "arr": "10:17"
+      }
+     ]
+    },
+    {
+     "dep": "10:09",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "U1",
+       "from": "Puddicombe Way",
+       "to": "Botanic Gardens",
+       "dep": "10:09",
+       "arr": "10:19"
+      },
+      {
+       "mode": "bus",
+       "route": "13A",
+       "from": "Botanic Gardens",
+       "to": "Downing College",
+       "dep": "10:21",
+       "arr": "10:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "10:26",
+       "arr": "10:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CHERRY_HINTON__Queen_Edith's_Way",
+   "name": "Queen Edith's Way",
+   "areaName": "Cherry Hinton",
+   "mode": "bus",
+   "lat": 52.1837,
+   "lon": 0.1727,
+   "searchArea": {
+    "term": "Cherry Hinton, Cambridge",
+    "slug": "cherry-hinton-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:53",
+     "arrWaterbeach": "06:22",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "3",
+       "from": "Queen Edith's Way",
+       "to": "Railway Station",
+       "dep": "05:53",
+       "arr": "06:05"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:13",
+       "arr": "06:22"
+      }
+     ]
+    },
+    {
+     "dep": "09:05",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "T3",
+       "from": "Queen Edith's Way",
+       "to": "Addenbrooke's Hospital Bus Station",
+       "dep": "09:05",
+       "arr": "09:11"
+      },
+      {
+       "mode": "bus",
+       "route": "13A",
+       "from": "Addenbrooke's Hospital Bus Station",
+       "to": "Downing College",
+       "dep": "09:13",
+       "arr": "09:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "09:26",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "10:05",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "T3",
+       "from": "Queen Edith's Way",
+       "to": "Addenbrooke's Hospital Bus Station",
+       "dep": "10:05",
+       "arr": "10:11"
+      },
+      {
+       "mode": "bus",
+       "route": "13A",
+       "from": "Addenbrooke's Hospital Bus Station",
+       "to": "Downing College",
+       "dep": "10:13",
+       "arr": "10:24"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "10:26",
+       "arr": "10:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CMB_SOUTH__Royal_Papworth_Hospital",
+   "name": "Royal Papworth Hospital",
+   "areaName": "Cambridge South",
+   "mode": "bus",
+   "lat": 52.1739,
+   "lon": 0.1352,
+   "searchArea": {
+    "term": "Trumpington, Cambridge",
+    "slug": "trumpington-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "06:29",
+     "arrWaterbeach": "06:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "Royal Papworth Hospital",
+       "to": "The Busway Railway Station",
+       "dep": "06:29",
+       "arr": "06:36"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:45",
+       "arr": "06:54"
+      }
+     ]
+    },
+    {
+     "dep": "07:29",
+     "arrWaterbeach": "07:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "Royal Papworth Hospital",
+       "to": "The Busway Railway Station",
+       "dep": "07:29",
+       "arr": "07:36"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:45",
+       "arr": "07:54"
+      }
+     ]
+    },
+    {
+     "dep": "07:49",
+     "arrWaterbeach": "08:24",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "Royal Papworth Hospital",
+       "to": "The Busway Railway Station",
+       "dep": "07:49",
+       "arr": "07:56"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:15",
+       "arr": "08:24"
+      }
+     ]
+    },
+    {
+     "dep": "08:09",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "Royal Papworth Hospital",
+       "to": "The Busway Railway Station",
+       "dep": "08:09",
+       "arr": "08:16"
+      },
+      {
+       "mode": "bus",
+       "route": "7",
+       "from": "Railway Station",
+       "to": "Downing College",
+       "dep": "08:20",
+       "arr": "08:20"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Downing College",
+       "to": "Lode Avenue",
+       "dep": "08:26",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:29",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "Royal Papworth Hospital",
+       "to": "The Busway Railway Station",
+       "dep": "08:29",
+       "arr": "08:36"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:45",
+       "arr": "08:54"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "COTTENHAM__Telegraph_Street",
+   "name": "Telegraph Street",
+   "areaName": "Cottenham",
+   "mode": "bus",
+   "lat": 52.2858,
+   "lon": 0.1281,
+   "searchArea": {
+    "term": "Cottenham, Cambridge",
+    "slug": "cottenham-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:48",
+     "arrWaterbeach": "06:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Village College",
+       "dep": "05:48",
+       "arr": "06:03"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "06:24",
+       "arr": "06:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "06:40",
+       "arr": "06:47"
+      }
+     ]
+    },
+    {
+     "dep": "06:14",
+     "arrWaterbeach": "07:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Emmanuel Street",
+       "dep": "06:14",
+       "arr": "06:51"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "06:55",
+       "arr": "07:17"
+      }
+     ]
+    },
+    {
+     "dep": "06:59",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Village College",
+       "dep": "06:59",
+       "arr": "07:14"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "07:24",
+       "arr": "07:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "07:40",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:29",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Emmanuel Street",
+       "dep": "07:29",
+       "arr": "08:14"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "08:25",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:09",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Emmanuel Street",
+       "dep": "08:09",
+       "arr": "08:54"
+      },
+      {
+       "mode": "bus",
+       "route": "PR4",
+       "from": "Drummer Street",
+       "to": "Railway Station",
+       "dep": "09:00",
+       "arr": "09:08"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "08:49",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Village College",
+       "dep": "08:49",
+       "arr": "09:04"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "09:24",
+       "arr": "09:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "09:40",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:29",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Emmanuel Street",
+       "dep": "09:29",
+       "arr": "10:14"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "10:25",
+       "arr": "10:47"
+      }
+     ]
+    },
+    {
+     "dep": "10:09",
+     "arrWaterbeach": "11:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Jesus College",
+       "dep": "10:09",
+       "arr": "10:52"
+      },
+      {
+       "mode": "bus",
+       "route": "3",
+       "from": "Fair Street",
+       "to": "Ditton Walk",
+       "dep": "10:55",
+       "arr": "11:03"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Ditton Walk",
+       "to": "Lode Avenue",
+       "dep": "11:05",
+       "arr": "11:17"
+      }
+     ]
+    },
+    {
+     "dep": "10:49",
+     "arrWaterbeach": "11:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "8",
+       "from": "Telegraph Street",
+       "to": "Village College",
+       "dep": "10:49",
+       "arr": "11:04"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Village College",
+       "to": "Musgrove Way",
+       "dep": "11:24",
+       "arr": "11:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "11:40",
+       "arr": "11:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MILL_ROAD__The_Broadway",
+   "name": "The Broadway",
+   "areaName": "Petersfield / Mill Road",
+   "mode": "bus",
+   "lat": 52.1979,
+   "lon": 0.1436,
+   "searchArea": {
+    "term": "Petersfield, Cambridge",
+    "slug": "petersfield-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "06:13",
+     "arrWaterbeach": "06:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "2",
+       "from": "The Broadway",
+       "to": "The Busway Parkside",
+       "dep": "06:13",
+       "arr": "06:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Fire Station",
+       "to": "Lode Avenue",
+       "dep": "06:28",
+       "arr": "06:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:13",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "2",
+       "from": "The Broadway",
+       "to": "The Busway Parkside",
+       "dep": "07:13",
+       "arr": "07:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Fire Station",
+       "to": "Lode Avenue",
+       "dep": "07:28",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "08:13",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "2",
+       "from": "The Broadway",
+       "to": "The Busway Parkside",
+       "dep": "08:13",
+       "arr": "08:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Fire Station",
+       "to": "Lode Avenue",
+       "dep": "08:28",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:13",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "2",
+       "from": "The Broadway",
+       "to": "The Busway Parkside",
+       "dep": "09:13",
+       "arr": "09:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Fire Station",
+       "to": "Lode Avenue",
+       "dep": "09:28",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "10:13",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "2",
+       "from": "The Broadway",
+       "to": "The Busway Parkside",
+       "dep": "10:13",
+       "arr": "10:19"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Fire Station",
+       "to": "Lode Avenue",
+       "dep": "10:28",
+       "arr": "10:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KINGS_HEDGES__The_Busway_Regional_College",
+   "name": "The Busway Regional College",
+   "areaName": "Kings Hedges",
+   "mode": "bus",
+   "lat": 52.2336,
+   "lon": 0.1367,
+   "searchArea": {
+    "term": "Kings Hedges, Cambridge",
+    "slug": "kings-hedges-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:41",
+     "arrWaterbeach": "06:44",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "Westbrook Centre",
+       "dep": "05:41",
+       "arr": "05:57"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Westbrook Centre",
+       "to": "Cockfen Lane",
+       "dep": "06:10",
+       "arr": "06:25"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "06:32",
+       "arr": "06:40"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Gibson Close",
+       "to": "Lode Avenue",
+       "dep": "06:43",
+       "arr": "06:44"
+      }
+     ]
+    },
+    {
+     "dep": "06:01",
+     "arrWaterbeach": "06:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "The Busway New Square",
+       "dep": "06:01",
+       "arr": "06:20"
+      },
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "The Busway New Square",
+       "to": "The Busway Railway Station",
+       "dep": "06:23",
+       "arr": "06:40"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:45",
+       "arr": "06:54"
+      }
+     ]
+    },
+    {
+     "dep": "06:32",
+     "arrWaterbeach": "07:14",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "T1",
+       "from": "The Busway Regional College",
+       "to": "Kendal Way",
+       "dep": "06:32",
+       "arr": "06:35"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Kendal Way",
+       "to": "Cockfen Lane",
+       "dep": "06:44",
+       "arr": "06:55"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "07:02",
+       "arr": "07:10"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Gibson Close",
+       "to": "Lode Avenue",
+       "dep": "07:13",
+       "arr": "07:14"
+      }
+     ]
+    },
+    {
+     "dep": "07:34",
+     "arrWaterbeach": "08:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "T1",
+       "from": "The Busway Regional College",
+       "to": "Drummer St Bus Station",
+       "dep": "07:34",
+       "arr": "07:50"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "07:55",
+       "arr": "08:17"
+      }
+     ]
+    },
+    {
+     "dep": "08:01",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "The Busway New Square",
+       "dep": "08:01",
+       "arr": "08:20"
+      },
+      {
+       "mode": "bus",
+       "route": "A",
+       "from": "The Busway New Square",
+       "to": "The Busway Railway Station",
+       "dep": "08:23",
+       "arr": "08:40"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:45",
+       "arr": "08:54"
+      }
+     ]
+    },
+    {
+     "dep": "09:21",
+     "arrWaterbeach": "10:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "Drummer St Bus Station",
+       "dep": "09:21",
+       "arr": "09:50"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "09:55",
+       "arr": "10:17"
+      }
+     ]
+    },
+    {
+     "dep": "10:21",
+     "arrWaterbeach": "11:17",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "Drummer St Bus Station",
+       "dep": "10:21",
+       "arr": "10:50"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Drummer Street",
+       "to": "Lode Avenue",
+       "dep": "10:55",
+       "arr": "11:17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KINGS_HEDGES__The_Busway_Regional_College",
+   "name": "The Busway Regional College",
+   "areaName": "Kings Hedges",
+   "mode": "bus",
+   "lat": 52.2338,
+   "lon": 0.1358,
+   "searchArea": {
+    "term": "Kings Hedges, Cambridge",
+    "slug": "kings-hedges-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "07:07",
+     "arrWaterbeach": "07:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "T1",
+       "from": "The Busway Regional College",
+       "to": "The Busway Histon and Impington",
+       "dep": "07:07",
+       "arr": "07:12"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Pepys Terrace",
+       "to": "Musgrove Way",
+       "dep": "07:19",
+       "arr": "07:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "07:40",
+       "arr": "07:47"
+      }
+     ]
+    },
+    {
+     "dep": "07:56",
+     "arrWaterbeach": "08:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "The Busway Histon and Impington",
+       "dep": "07:56",
+       "arr": "08:00"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Pepys Terrace",
+       "to": "Musgrove Way",
+       "dep": "08:19",
+       "arr": "08:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "08:40",
+       "arr": "08:47"
+      }
+     ]
+    },
+    {
+     "dep": "09:06",
+     "arrWaterbeach": "09:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "The Busway Histon and Impington",
+       "dep": "09:06",
+       "arr": "09:10"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Pepys Terrace",
+       "to": "Musgrove Way",
+       "dep": "09:19",
+       "arr": "09:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "09:40",
+       "arr": "09:47"
+      }
+     ]
+    },
+    {
+     "dep": "10:06",
+     "arrWaterbeach": "10:47",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "B",
+       "from": "The Busway Regional College",
+       "to": "The Busway Histon and Impington",
+       "dep": "10:06",
+       "arr": "10:10"
+      },
+      {
+       "mode": "bus",
+       "route": "T2",
+       "from": "Pepys Terrace",
+       "to": "Musgrove Way",
+       "dep": "10:19",
+       "arr": "10:35"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Musgrove Way",
+       "to": "Lode Avenue",
+       "dep": "10:40",
+       "arr": "10:47"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ARBURY__Union_Lane",
+   "name": "Union Lane",
+   "areaName": "Arbury",
+   "mode": "bus",
+   "lat": 52.2199,
+   "lon": 0.1333,
+   "searchArea": {
+    "term": "Arbury, Cambridge",
+    "slug": "arbury-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "06:12",
+     "arrWaterbeach": "06:44",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Union Lane",
+       "to": "Cockfen Lane",
+       "dep": "06:12",
+       "arr": "06:25"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "06:32",
+       "arr": "06:40"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Gibson Close",
+       "to": "Lode Avenue",
+       "dep": "06:43",
+       "arr": "06:44"
+      }
+     ]
+    },
+    {
+     "dep": "06:42",
+     "arrWaterbeach": "07:14",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Union Lane",
+       "to": "Cockfen Lane",
+       "dep": "06:42",
+       "arr": "06:55"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "07:02",
+       "arr": "07:10"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Gibson Close",
+       "to": "Lode Avenue",
+       "dep": "07:13",
+       "arr": "07:14"
+      }
+     ]
+    },
+    {
+     "dep": "07:42",
+     "arrWaterbeach": "08:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Union Lane",
+       "to": "Cockfen Lane",
+       "dep": "07:42",
+       "arr": "07:55"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "08:02",
+       "arr": "08:10"
+      }
+     ]
+    },
+    {
+     "dep": "08:21",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Union Lane",
+       "to": "Research Park Entrance",
+       "dep": "08:21",
+       "arr": "08:40"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Research Park Entrance",
+       "to": "Lode Avenue",
+       "dep": "08:45",
+       "arr": "08:54"
+      }
+     ]
+    },
+    {
+     "dep": "08:42",
+     "arrWaterbeach": "09:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Union Lane",
+       "to": "Cockfen Lane",
+       "dep": "08:42",
+       "arr": "08:55"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "09:02",
+       "arr": "09:10"
+      }
+     ]
+    },
+    {
+     "dep": "09:21",
+     "arrWaterbeach": "09:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Union Lane",
+       "to": "Research Park Entrance",
+       "dep": "09:21",
+       "arr": "09:40"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Research Park Entrance",
+       "to": "Lode Avenue",
+       "dep": "09:45",
+       "arr": "09:54"
+      }
+     ]
+    },
+    {
+     "dep": "09:42",
+     "arrWaterbeach": "10:10",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Union Lane",
+       "to": "Cockfen Lane",
+       "dep": "09:42",
+       "arr": "09:55"
+      },
+      {
+       "mode": "bus",
+       "route": "PR5",
+       "from": "Cockfen Lane",
+       "to": "Gibson Close",
+       "dep": "10:02",
+       "arr": "10:10"
+      }
+     ]
+    },
+    {
+     "dep": "10:21",
+     "arrWaterbeach": "10:54",
+     "legs": [
+      {
+       "mode": "bus",
+       "route": "9",
+       "from": "Union Lane",
+       "to": "Research Park Entrance",
+       "dep": "10:21",
+       "arr": "10:40"
+      },
+      {
+       "mode": "bus",
+       "route": "100",
+       "from": "Research Park Entrance",
+       "to": "Lode Avenue",
+       "dep": "10:45",
+       "arr": "10:54"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CD_HORNINGSEA",
+   "name": "Horningsea",
+   "areaName": "Horningsea",
+   "mode": "cycle_direct",
+   "lat": 52.243,
+   "lon": 0.193,
+   "searchArea": {
+    "term": "Horningsea, Cambridge",
+    "slug": "horningsea-cambridge"
+   },
+   "journeys": []
+  },
+  {
+   "id": "CD_LANDBEACH",
+   "name": "Landbeach",
+   "areaName": "Landbeach",
+   "mode": "cycle_direct",
+   "lat": 52.28,
+   "lon": 0.171,
+   "searchArea": {
+    "term": "Landbeach, Cambridgeshire",
+    "slug": "landbeach-cambridgeshire"
+   },
+   "journeys": []
+  },
+  {
+   "id": "CD_MILTON",
+   "name": "Milton",
+   "areaName": "Milton",
+   "mode": "cycle_direct",
+   "lat": 52.247,
+   "lon": 0.156,
+   "searchArea": {
+    "term": "Milton, Cambridge",
+    "slug": "milton-cambridge"
+   },
+   "journeys": []
+  },
+  {
+   "id": "CD_WATERBEACH",
+   "name": "Waterbeach village",
+   "areaName": "Waterbeach village",
+   "mode": "cycle_direct",
+   "lat": 52.265765,
+   "lon": 0.1909734,
+   "searchArea": {
+    "term": "Waterbeach, Cambridgeshire",
+    "slug": "waterbeach-cambridgeshire"
+   },
+   "journeys": []
+  },
+  {
+   "id": "CBG__Cambridge",
+   "name": "Cambridge",
+   "areaName": "Cambridge",
+   "mode": "rail",
+   "lat": 52.1949,
+   "lon": 0.1381,
+   "searchArea": {
+    "term": "Cambridge",
+    "slug": "cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:45",
+     "arrWaterbeach": "05:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "05:45",
+       "arr": "05:54"
+      }
+     ]
+    },
+    {
+     "dep": "06:13",
+     "arrWaterbeach": "06:22",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:13",
+       "arr": "06:22"
+      }
+     ]
+    },
+    {
+     "dep": "06:45",
+     "arrWaterbeach": "06:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "06:45",
+       "arr": "06:54"
+      }
+     ]
+    },
+    {
+     "dep": "07:15",
+     "arrWaterbeach": "07:24",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:15",
+       "arr": "07:24"
+      }
+     ]
+    },
+    {
+     "dep": "08:15",
+     "arrWaterbeach": "08:24",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:15",
+       "arr": "08:24"
+      }
+     ]
+    },
+    {
+     "dep": "09:17",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CBG__Cambridge",
+   "name": "Cambridge",
+   "areaName": "Cambridge",
+   "mode": "rail",
+   "lat": 52.1936,
+   "lon": 0.1372,
+   "searchArea": {
+    "term": "Cambridge",
+    "slug": "cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "07:45",
+     "arrWaterbeach": "07:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "07:45",
+       "arr": "07:54"
+      }
+     ]
+    },
+    {
+     "dep": "08:45",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "08:45",
+       "arr": "08:54"
+      }
+     ]
+    },
+    {
+     "dep": "09:45",
+     "arrWaterbeach": "09:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "09:45",
+       "arr": "09:54"
+      }
+     ]
+    },
+    {
+     "dep": "10:17",
+     "arrWaterbeach": "10:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "10:17",
+       "arr": "10:26"
+      }
+     ]
+    },
+    {
+     "dep": "10:45",
+     "arrWaterbeach": "10:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge",
+       "to": "Waterbeach",
+       "dep": "10:45",
+       "arr": "10:54"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CBN__Cambridge_North",
+   "name": "Cambridge North",
+   "areaName": "Cambridge North",
+   "mode": "rail",
+   "lat": 52.2245,
+   "lon": 0.1587,
+   "searchArea": {
+    "term": "Chesterton, Cambridge",
+    "slug": "chesterton-cambridge"
+   },
+   "journeys": [
+    {
+     "dep": "05:49",
+     "arrWaterbeach": "05:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "05:49",
+       "arr": "05:54"
+      }
+     ]
+    },
+    {
+     "dep": "06:17",
+     "arrWaterbeach": "06:22",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "06:17",
+       "arr": "06:22"
+      }
+     ]
+    },
+    {
+     "dep": "06:49",
+     "arrWaterbeach": "06:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "06:49",
+       "arr": "06:54"
+      }
+     ]
+    },
+    {
+     "dep": "07:19",
+     "arrWaterbeach": "07:24",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "07:19",
+       "arr": "07:24"
+      }
+     ]
+    },
+    {
+     "dep": "07:49",
+     "arrWaterbeach": "07:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "07:49",
+       "arr": "07:54"
+      }
+     ]
+    },
+    {
+     "dep": "08:19",
+     "arrWaterbeach": "08:24",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "08:19",
+       "arr": "08:24"
+      }
+     ]
+    },
+    {
+     "dep": "08:49",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "08:49",
+       "arr": "08:54"
+      }
+     ]
+    },
+    {
+     "dep": "09:21",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "09:21",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "09:49",
+     "arrWaterbeach": "09:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "09:49",
+       "arr": "09:54"
+      }
+     ]
+    },
+    {
+     "dep": "10:21",
+     "arrWaterbeach": "10:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "10:21",
+       "arr": "10:26"
+      }
+     ]
+    },
+    {
+     "dep": "10:49",
+     "arrWaterbeach": "10:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "10:49",
+       "arr": "10:54"
+      }
+     ]
+    },
+    {
+     "dep": "11:21",
+     "arrWaterbeach": "11:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "11:21",
+       "arr": "11:26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ELY__Ely",
+   "name": "Ely",
+   "areaName": "Ely",
+   "mode": "rail",
+   "lat": 52.3912,
+   "lon": 0.2668,
+   "searchArea": {
+    "term": "Ely, Cambridgeshire",
+    "slug": "ely-cambridgeshire"
+   },
+   "journeys": [
+    {
+     "dep": "05:47",
+     "arrWaterbeach": "05:56",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "05:47",
+       "arr": "05:56"
+      }
+     ]
+    },
+    {
+     "dep": "05:50",
+     "arrWaterbeach": "06:00",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "05:50",
+       "arr": "06:00"
+      }
+     ]
+    },
+    {
+     "dep": "06:17",
+     "arrWaterbeach": "06:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "06:17",
+       "arr": "06:26"
+      }
+     ]
+    },
+    {
+     "dep": "06:26",
+     "arrWaterbeach": "06:36",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "06:26",
+       "arr": "06:36"
+      }
+     ]
+    },
+    {
+     "dep": "06:34",
+     "arrWaterbeach": "06:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Cambridge North",
+       "dep": "06:34",
+       "arr": "06:46"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "06:49",
+       "arr": "06:54"
+      }
+     ]
+    },
+    {
+     "dep": "06:47",
+     "arrWaterbeach": "06:56",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "06:47",
+       "arr": "06:56"
+      }
+     ]
+    },
+    {
+     "dep": "06:57",
+     "arrWaterbeach": "07:07",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "06:57",
+       "arr": "07:07"
+      }
+     ]
+    },
+    {
+     "dep": "07:17",
+     "arrWaterbeach": "07:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "07:17",
+       "arr": "07:26"
+      }
+     ]
+    },
+    {
+     "dep": "07:27",
+     "arrWaterbeach": "07:36",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "07:27",
+       "arr": "07:36"
+      }
+     ]
+    },
+    {
+     "dep": "07:47",
+     "arrWaterbeach": "07:56",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "07:47",
+       "arr": "07:56"
+      }
+     ]
+    },
+    {
+     "dep": "08:03",
+     "arrWaterbeach": "08:24",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Cambridge North",
+       "dep": "08:03",
+       "arr": "08:15"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "08:19",
+       "arr": "08:24"
+      }
+     ]
+    },
+    {
+     "dep": "08:17",
+     "arrWaterbeach": "08:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "08:17",
+       "arr": "08:26"
+      }
+     ]
+    },
+    {
+     "dep": "08:27",
+     "arrWaterbeach": "08:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Cambridge North",
+       "dep": "08:27",
+       "arr": "08:39"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "08:49",
+       "arr": "08:54"
+      }
+     ]
+    },
+    {
+     "dep": "08:46",
+     "arrWaterbeach": "08:56",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "08:46",
+       "arr": "08:56"
+      }
+     ]
+    },
+    {
+     "dep": "09:17",
+     "arrWaterbeach": "09:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "09:17",
+       "arr": "09:26"
+      }
+     ]
+    },
+    {
+     "dep": "09:27",
+     "arrWaterbeach": "09:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Cambridge North",
+       "dep": "09:27",
+       "arr": "09:39"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "09:49",
+       "arr": "09:54"
+      }
+     ]
+    },
+    {
+     "dep": "09:51",
+     "arrWaterbeach": "10:01",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "09:51",
+       "arr": "10:01"
+      }
+     ]
+    },
+    {
+     "dep": "10:17",
+     "arrWaterbeach": "10:26",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "10:17",
+       "arr": "10:26"
+      }
+     ]
+    },
+    {
+     "dep": "10:27",
+     "arrWaterbeach": "10:54",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Greater Anglia",
+       "from": "Ely",
+       "to": "Cambridge North",
+       "dep": "10:27",
+       "arr": "10:39"
+      },
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Cambridge North",
+       "to": "Waterbeach",
+       "dep": "10:49",
+       "arr": "10:54"
+      }
+     ]
+    },
+    {
+     "dep": "10:51",
+     "arrWaterbeach": "11:01",
+     "legs": [
+      {
+       "mode": "rail",
+       "route": "Great Northern",
+       "from": "Ely",
+       "to": "Waterbeach",
+       "dep": "10:51",
+       "arr": "11:01"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
