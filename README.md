@@ -8,6 +8,70 @@ works out which places real public transport puts within your limit, searches
 only those, and then costs every property's door-to-door journey using real
 timetable data.
 
+## Pending: Compose BOM upgrade (deferred, please pick this up)
+
+**This project has a compile/runtime version skew that has already caused one
+on-device crash.** It is shelved, not fixed. Worth doing before adding more UI.
+
+The Compose BOM pins the *compile* classpath while `navigation-compose` drags a
+much newer Compose onto the *runtime* classpath:
+
+| | androidx.compose.foundation |
+|---|---|
+| compile (`debugCompileClasspath`) | **1.7.2** — pinned by `composeBom = "2024.09.00"` |
+| runtime (`debugRuntimeClasspath`) | **1.9.2** — pulled in by `navigation-compose:2.9.8` |
+
+Any Compose API whose signature changed between those two versions compiles
+cleanly, passes all unit tests, and then dies at runtime. That is exactly what
+happened with `FlowRow`:
+
+```
+java.lang.NoSuchMethodError: No static method FlowRow(...FlowRowOverflow...)
+    at com.openrent.cambridge.ui.SearchScreenKt.ChipFlow(SearchScreen.kt:215)
+```
+
+To see it at any time:
+
+```bash
+./gradlew checkComposeVersionSkew
+```
+
+### Until it is fixed
+
+**Avoid experimental Compose APIs** (`@ExperimentalLayoutApi`,
+`@ExperimentalFoundationApi`). Stable APIs such as `Row`, `Column` and
+`LazyColumn` are binary-compatible across 1.7 to 1.9 and are safe. The chip
+layout in `SearchScreen.kt` is deliberately hand-built from `Row`/`Column` for
+this reason — see `ChipRow`.
+
+### Doing the upgrade
+
+1. Bump the BOM in `gradle/libs.versions.toml`:
+   `composeBom = "2024.09.00"` → `"2026.09.00"` (foundation 1.12.1, above the
+   1.9.2 that navigation pulls in, so both classpaths agree).
+2. **Fix the Material icons imports.** Icons were split out of `material3`, so
+   `androidx.compose.material.icons` stops resolving. Add
+   `androidx.compose.material:material-icons-core` to `app/build.gradle.kts`.
+   Affected files, from an actual attempt:
+   - `ui/DetailScreen.kt` — lines 8, 9, 29 (`Icons.AutoMirrored.Filled.ArrowBack`)
+   - `ui/ResultsScreen.kt` — lines 16, 17, 18, 66, 164 (`ArrowBack`, `ArrowDropDown`)
+3. Resolve the `:app:checkDebugAarMetadata` failure that surfaced on the first
+   attempt — likely a `compileSdk` bump beyond the current 36.
+4. Once green, `ChipRow` in `SearchScreen.kt` can go back to `FlowRow` if
+   preferred, though it works fine as is.
+
+### Verifying
+
+```bash
+./gradlew checkComposeVersionSkew   # must print no warning
+./gradlew testDebugUnitTest         # 61 tests
+./gradlew installDebug              # then open the Search screen, which is
+                                    # where the FlowRow crash surfaced
+```
+
+Unit tests cannot catch this class of bug — they do not compose UI. **The
+upgrade is only verified once the app has been run on a device.**
+
 ## How it works
 
 You set an arrival time, a maximum acceptable commute, and whether the last mile
@@ -167,6 +231,11 @@ well while Lie-in correctly drops it. Cards also flag this directly, with
 ## Build and test
 
 ```bash
-./gradlew testDebugUnitTest   # 61 tests: commute maths, filters, sorting, parser fixtures, asset validation
-./gradlew installDebug        # to a connected device
+./gradlew testDebugUnitTest       # 61 tests: commute maths, filters, sorting, parser fixtures, asset validation
+./gradlew installDebug            # to a connected device
+./gradlew checkComposeVersionSkew # reports the pending BOM issue (see top of this file)
 ```
+
+Unit tests do not compose UI, so they cannot catch Compose binary-compatibility
+problems. Anything touching the UI needs a run on a real device before it is
+considered done.

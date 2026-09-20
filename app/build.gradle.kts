@@ -93,9 +93,14 @@ tasks.register("checkComposeVersionSkew") {
                 logger.warn(
                     "WARNING [compose-version-skew] androidx.compose.foundation:$module " +
                         "compiles against $compile but runs against $runtime. " +
-                        "Avoid experimental Compose APIs whose signatures change between them."
+                        "Avoid experimental Compose APIs until the BOM upgrade is done " +
+                        "-- see \"Pending: Compose BOM upgrade\" in README.md."
                 )
             }
         }
     }
 }
+
+// Surface the skew on every build, not only when the task is run by hand, so it
+// stays visible until somebody does the BOM upgrade described in README.md.
+tasks.named("preBuild") { dependsOn("checkComposeVersionSkew") }
